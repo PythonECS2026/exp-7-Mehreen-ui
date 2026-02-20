@@ -4,8 +4,6 @@
 # Coder: mehreen ansari
 # Date: 20/02/2026
 
-print(f"Current Student Records: {students_records}")
-
 students = {
     "251S005": {"name": "Sameer",  "grade": "A",  "attendance": 68},
     "251S026": {"name": "Katrina", "grade": "A-", "attendance": 55},
@@ -42,5 +40,6 @@ if delete_uin == "251S055":
         sorted(students.items(), key=lambda item: item[1]["attendance"])
     )
 print(f"Final Student Records: {students}")
+
 
 
